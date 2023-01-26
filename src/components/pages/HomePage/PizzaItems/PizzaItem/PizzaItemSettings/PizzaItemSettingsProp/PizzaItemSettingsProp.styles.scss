@@ -1,0 +1,20 @@
+.settings-prop {
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-weight: 500;
+
+  border-radius: 5px;
+
+  &_available {
+    cursor: pointer;
+    background-color: rgba(208, 208, 208, 0.3);
+  }
+
+  &_active {
+    background-color: var(--main-white);
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.04);
+  }
+}

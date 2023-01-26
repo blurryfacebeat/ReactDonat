@@ -1,0 +1,64 @@
+.pizza-item__add-button {
+  min-width: 150px;
+  height: 40px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  border: 1px solid var(--accent-color);
+  border-radius: 30px;
+  background-color: transparent;
+  transition: all 0.2s ease;
+  cursor: pointer;
+
+  @media (any-hover: hover) {
+    &:hover {
+      background-color: var(--accent-color);
+
+      svg {
+        fill: var(--main-white);
+      }
+
+      p {
+        color: var(--main-white);
+      }
+
+      span {
+        color: var(--accent-color);
+
+        background-color: var(--main-white);
+      }
+    }
+  }
+
+  svg {
+    fill: var(--accent-color);
+
+    transition: all 0.2s ease;
+  }
+
+  p {
+    font-weight: 500;
+    color: var(--accent-color);
+    font-size: 16px;
+
+    transition: all 0.2s ease;
+  }
+
+  span {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: var(--main-white);
+    font-weight: 500;
+    font-size: 13px;
+
+    border-radius: 50%;
+    background-color: var(--accent-color);
+    transition: all 0.2s ease;
+  }
+}

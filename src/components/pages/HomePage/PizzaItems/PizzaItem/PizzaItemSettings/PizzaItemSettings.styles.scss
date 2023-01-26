@@ -1,0 +1,29 @@
+.pizza-item__settings {
+  width: 280px;
+  height: 85px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  background-color: var(--disable-color);
+  border-radius: 10px;
+}
+
+.settings-props {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+
+  &_doughs {
+    .settings-prop {
+      flex-basis: 50%;
+    }
+  }
+
+  &_sizes {
+    .settings-prop {
+      flex-basis: 33%;
+    }
+  }
+}
