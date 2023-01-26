@@ -1,0 +1,25 @@
+.filters-buttons__item {
+  padding: 15px 30px;
+
+  font-weight: 500;
+  font-size: 16px;
+
+  background-color: var(--first-grey);
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+
+  @media (any-hover: hover) {
+    &:hover {
+      color: var(--main-white);
+
+      background-color: var(--main-black);
+    }
+  }
+
+  &_active {
+    color: var(--main-white);
+
+    background-color: var(--main-black);
+  }
+}

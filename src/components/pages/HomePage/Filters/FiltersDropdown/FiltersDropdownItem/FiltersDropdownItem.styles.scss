@@ -1,0 +1,16 @@
+.filters-dropdown__item {
+  padding: 10px 15px;
+
+  font-weight: 500;
+
+  cursor: pointer;
+  transition: all 0.2s ease;
+
+  @media (any-hover: hover) {
+    &:hover {
+      color: var(--accent-color);
+
+      background-color: rgba(254, 95, 30, 0.05);
+    }
+  }
+}

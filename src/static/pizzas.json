@@ -1,0 +1,178 @@
+{
+  "pizzas": [
+    {
+      "name": "Чизбургер-пицца",
+      "doughs": [
+        {
+          "name": "тонкое",
+          "available": true
+        },
+        {
+          "name": "традиционное",
+          "available": false
+        }
+      ],
+      "sizes": [
+        {
+          "name": "26 см.",
+          "available": true
+        },
+        {
+          "name": "30 см.",
+          "available": false
+        },
+        {
+          "name": "40 см.",
+          "available": true
+        }
+      ],
+      "price": 395,
+      "img": "https://live.staticflickr.com/65535/52172065398_4203491cf5_m.jpg"
+    },
+    {
+      "name": "Сырная",
+      "doughs": [
+        {
+          "name": "тонкое",
+          "available": true
+        },
+        {
+          "name": "традиционное",
+          "available": false
+        }
+      ],
+      "sizes": [
+        {
+          "name": "26 см.",
+          "available": true
+        },
+        {
+          "name": "30 см.",
+          "available": false
+        },
+        {
+          "name": "40 см.",
+          "available": true
+        }
+      ],
+      "price": 450,
+      "img": "https://live.staticflickr.com/65535/52171037832_42d467b76c_m.jpg"
+    },
+    {
+      "name": "4 сыра",
+      "doughs": [
+        {
+          "name": "тонкое",
+          "available": true
+        },
+        {
+          "name": "традиционное",
+          "available": true
+        }
+      ],
+      "sizes": [
+        {
+          "name": "26 см.",
+          "available": true
+        },
+        {
+          "name": "30 см.",
+          "available": false
+        },
+        {
+          "name": "40 см.",
+          "available": true
+        }
+      ],
+      "price": 290,
+      "img": "https://live.staticflickr.com/65535/52171037867_7358cb2440_m.jpg"
+    },
+    {
+      "name": "5 колбас 12 овощей",
+      "doughs": [
+        {
+          "name": "тонкое",
+          "available": true
+        },
+        {
+          "name": "традиционное",
+          "available": false
+        }
+      ],
+      "sizes": [
+        {
+          "name": "26 см.",
+          "available": true
+        },
+        {
+          "name": "30 см.",
+          "available": false
+        },
+        {
+          "name": "40 см.",
+          "available": false
+        }
+      ],
+      "price": 385,
+      "img": "https://live.staticflickr.com/65535/52172065508_c0c2c71e48_m.jpg"
+    },
+    {
+      "name": "Ванильная",
+      "doughs": [
+        {
+          "name": "тонкое",
+          "available": true
+        },
+        {
+          "name": "традиционное",
+          "available": false
+        }
+      ],
+      "sizes": [
+        {
+          "name": "26 см.",
+          "available": true
+        },
+        {
+          "name": "30 см.",
+          "available": false
+        },
+        {
+          "name": "40 см.",
+          "available": false
+        }
+      ],
+      "price": 378,
+      "img": "https://live.staticflickr.com/65535/52171037832_42d467b76c_m.jpg"
+    },
+    {
+      "name": "Шоколадная",
+      "doughs": [
+        {
+          "name": "тонкое",
+          "available": true
+        },
+        {
+          "name": "традиционное",
+          "available": true
+        }
+      ],
+      "sizes": [
+        {
+          "name": "26 см.",
+          "available": true
+        },
+        {
+          "name": "30 см.",
+          "available": false
+        },
+        {
+          "name": "40 см.",
+          "available": true
+        }
+      ],
+      "price": 777,
+      "img": "https://live.staticflickr.com/65535/52171037867_7358cb2440_m.jpg"
+    }
+  ]
+}
