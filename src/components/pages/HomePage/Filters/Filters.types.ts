@@ -8,7 +8,8 @@ interface IFiltersProps {
 }
 
 interface IFilterItemProps extends IFilterItem {
-  active: boolean;
+  isActive: boolean;
+  onSetNewFilter: () => void;
 }
 
 export { IFilterItem, IFiltersProps, IFilterItemProps };

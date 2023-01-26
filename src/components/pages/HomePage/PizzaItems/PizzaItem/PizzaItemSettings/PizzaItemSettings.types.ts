@@ -1,5 +1,6 @@
-import { IPizzaItem } from '../PizzaItem.types';
+import { IPizzaItem, IPizzaSettings } from '../PizzaItem.types';
 
-type TPizzaItemSettings = Pick<IPizzaItem, 'doughs' | 'sizes'>;
-
-export { TPizzaItemSettings };
+export interface IPizzaItemSettings extends Pick<IPizzaItem, 'doughs' | 'sizes'> {
+  pizzaActiveSettings: IPizzaSettings;
+  onUpdatePizzaSettings: (settingsItem: IPizzaSettings) => void;
+}

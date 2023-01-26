@@ -13,4 +13,10 @@
       background-color: rgba(254, 95, 30, 0.05);
     }
   }
+
+  &_active {
+    color: var(--accent-color);
+
+    background-color: rgba(254, 95, 30, 0.05);
+  }
 }
