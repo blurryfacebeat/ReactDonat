@@ -153,10 +153,6 @@ const clientConfig = {
     open: true,
     hot: IS_DEV,
     historyApiFallback: true,
-    proxy: {
-      '/api': 'http://localhost:8000',
-      changeOrigin: true,
-    },
     onListening: (devServer) => {
       if (!devServer) throw new Error('webpack-dev-server is not defined');
 

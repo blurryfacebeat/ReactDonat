@@ -1,6 +1,7 @@
 {
   "pizzas": [
     {
+      "id": 0,
       "name": "Чизбургер-пицца",
       "doughs": [
         {
@@ -30,6 +31,7 @@
       "img": "https://live.staticflickr.com/65535/52172065398_4203491cf5_m.jpg"
     },
     {
+      "id": 1,
       "name": "Сырная",
       "doughs": [
         {
@@ -59,6 +61,7 @@
       "img": "https://live.staticflickr.com/65535/52171037832_42d467b76c_m.jpg"
     },
     {
+      "id": 2,
       "name": "4 сыра",
       "doughs": [
         {
@@ -88,6 +91,7 @@
       "img": "https://live.staticflickr.com/65535/52171037867_7358cb2440_m.jpg"
     },
     {
+      "id": 3,
       "name": "5 колбас 12 овощей",
       "doughs": [
         {
@@ -117,6 +121,7 @@
       "img": "https://live.staticflickr.com/65535/52172065508_c0c2c71e48_m.jpg"
     },
     {
+      "id": 4,
       "name": "Ванильная",
       "doughs": [
         {
@@ -146,6 +151,7 @@
       "img": "https://live.staticflickr.com/65535/52171037832_42d467b76c_m.jpg"
     },
     {
+      "id": 5,
       "name": "Шоколадная",
       "doughs": [
         {
